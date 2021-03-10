@@ -10,11 +10,11 @@ import tweepy
 import json
 import re
 
-_consumer_key = 'TmpG43n33c4ZeG2DluFqU2B5E'
-_consumer_secret = 'Ta47kggFdk4N3N0DKzfc8duGaBEdTR6YnEjonLrntH46qhHArP'
+_consumer_key = '<your_token'
+_consumer_secret = '<your_token'
 
-_access_token = '881921096529924098-UhnDNrabRqf36NDbVcnU3F8BM7oVxDt'
-_access_token_secret= 'Kp5x6TMTFEdhkN4SEvDDCxq0YYQprBH2PuR6NykJlCE0L'
+_access_token = '<your_token'
+_access_token_secret= '<your_token'
 
 auth = tweepy.OAuthHandler(_consumer_key, _consumer_secret)
 auth.set_access_token(_access_token, _access_token_secret)
